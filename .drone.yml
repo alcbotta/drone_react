@@ -5,10 +5,12 @@ steps:
 - name: build
   image: node:12.6
   commands: 
-    - ls -all
     - cd ./app
     - npm install
     - npm run build
+    - ls -all
+    - mkdir /drone/src/public
+    - mv ./build/* /drone/src/public
 - name: publish  
   image: plugins/gh-pages
   settings:
