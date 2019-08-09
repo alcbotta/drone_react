@@ -5,7 +5,9 @@ steps:
 - name: build
   image: node:12.6
   commands: 
+    - ls -all
     - cd ./app
+    - npm run install
     - npm run build
 - name: publish  
   image: plugins/gh-pages
