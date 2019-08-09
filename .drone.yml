@@ -10,6 +10,9 @@ steps:
     - npm run build
     - mkdir /drone/src/public
     - mv ./build/* /drone/src/public
+    - cat ~/.gitconfig
+    - git config --global user.email "alcbotta"
+    - git config --global user.name "Andre Botta"
 - name: publish  
   image: plugins/gh-pages
   settings:
