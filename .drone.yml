@@ -8,12 +8,13 @@ steps:
     - cd ./app
     - npm install
     - npm run build
-    - ls -all
     - mkdir /drone/src/public
     - mv ./build/* /drone/src/public
 - name: publish  
   image: plugins/gh-pages
   settings:
+    upstream_name: https://github.com/alcbotta/drone_react.git
+    target_branch: gh-pages
     username:
       from_secret: github_username
     password:
