@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "103561d73e65fb3c52d5efe33539d593",
+    "revision": "5ce14f1f0ddce94b1bd594dfb3bdd756",
     "url": "/drone_react/index.html"
   },
   {
-    "revision": "c1451d62ffe1d9d4f3c9",
+    "revision": "af3616ac99fd53d05538",
     "url": "/drone_react/static/css/main.2cce8147.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/drone_react/static/js/2.ec295295.chunk.js"
   },
   {
-    "revision": "c1451d62ffe1d9d4f3c9",
-    "url": "/drone_react/static/js/main.f0e10b1d.chunk.js"
+    "revision": "af3616ac99fd53d05538",
+    "url": "/drone_react/static/js/main.74da2a99.chunk.js"
   },
   {
     "revision": "1a6c4e7086cadb5221f5",
