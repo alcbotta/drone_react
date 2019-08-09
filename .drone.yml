@@ -2,6 +2,10 @@ kind: pipeline
 name: default
 
 steps:
+- name: build
+  image: node:12.6
+  commands: 
+    - npm run build
 - name: publish  
   image: plugins/gh-pages
   settings:
