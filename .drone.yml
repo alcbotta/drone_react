@@ -10,3 +10,4 @@ steps:
     password:
       from_secret: github_password
     pages_directory: public/
+    temporary_base: tmp/
